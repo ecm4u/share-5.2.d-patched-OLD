@@ -91,6 +91,7 @@ public class MessagesWebScript extends org.springframework.extensions.webscripts
         }
         writer.write(";\r\n");
 
+/*
         if (isCommunity())
         {
             // community logo
@@ -100,6 +101,7 @@ public class MessagesWebScript extends org.springframework.extensions.webscripts
             writer.write(serverPath.substring(0, schemaIndex));
             writer.write("://www.alfresco.com/assets/images/logos/community-5.2-share.png\" alt=\"*\" style=\"display:none\"/>\'}, 100);\r\n");
         }
+*/
         return writer.toString();
     }
 
@@ -115,6 +117,7 @@ public class MessagesWebScript extends org.springframework.extensions.webscripts
         StringBuilder sb = new StringBuilder(512);
         sb.append(";\r\n");
 
+/*
         if (isCommunity())
         {
             // community logo
@@ -124,6 +127,7 @@ public class MessagesWebScript extends org.springframework.extensions.webscripts
             sb.append(serverPath.substring(0, schemaIndex));
             sb.append("://www.alfresco.com/assets/images/logos/community-5.2-share.png\" alt=\"*\" style=\"display:none\"/>\'}, 100);\r\n");
         }
+*/
         return sb.toString();
     }
     
