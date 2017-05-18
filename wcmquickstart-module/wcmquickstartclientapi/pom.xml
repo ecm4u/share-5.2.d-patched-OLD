@@ -5,7 +5,7 @@
     <parent>
         <artifactId>alfresco-wcmqs-parent</artifactId>
         <groupId>org.alfresco</groupId>
-        <version>5.2.d</version>
+        <version>5.2.d.ecm4u.1</version>
     </parent>
 
     <dependencies>
